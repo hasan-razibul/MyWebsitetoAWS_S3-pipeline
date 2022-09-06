@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Razibul</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon' ></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Certificates
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">RAZIBUL <b>Hasan</b></h1>
+                                <h3 class="home__profession">Cloud Engineer</h3>
+
+                                <div>
+                                    <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Dowload Cv</a>
+                                </div>
+                            </div>   
+    
+    
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Hammacherstr. 46, 45127, Germany
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> razhasan93@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> +49 015739890108
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+                        
+                        <div class="social__container bd-grid">
+                            <a href="https://www.razibulhasan.com/" target="_blank" class="social__link">
+                                <i class='bx bx-world social__icon'></i>
+                                www.razibulhasan.com
+                            </a>
+                            <a href="https://www.linkedin.com/in/razibul-hasan/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i>
+                                @razibul-hasan
+                            </a>
+                            <a href="https://github.com/hasan-razibul" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i>
+                                @hasan-razibul
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile__description">AWS certified Solution Architect Associate with 3+ years of experience in related fields, Skilled in information management, application development, and other aspects of service-oriented architecture. Capable with an ability to identify and deal with a client's needs by translating them into appropriate technical solution/s.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">MSc. in Automation & Robotics</h3>
+                                    <span class="education__studies">TU Dortmund</span>
+                                    <span class="education__year">2021 - Ongoing</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+                                
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">BSc. in EEE</h3>
+                                    <span class="education__studies">Independent University Bangladesh</span>
+                                    <span class="education__year">2013 - 2017</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> AWS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Cloud
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Github
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Jenkins
+                                </li>
+                            </ul>
+                            
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Serverless
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Microservices
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Kubernetes
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">CLOUD ENGINEER</h3>
+                                    <span class="experience__company">From 2020 to 2021 | Landknock</span>
+                                    <p class="experience__description">Designed and edited blueprints for IT infrastructure and networking architecture according to management’s demands. Monitored existing infrastructure and architectural frameworks for performance, and made changes and updates when necessary. Kept up to date with latest industry knowledge and news to maintain and improve enterprise and business platforms. </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">IT ENGINEER</h3>
+                                    <span class="experience__company">From 2018 to 2020 | Wallz</span>
+                                    <p class="experience__description">Working as a confident Information Manager for technical improvements and to enable business intelligence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">AWS Certified Solution Architect - Associate</h3>
+                                <p class="certificate__description">Amazon Web Services (AWS)</p>
+                                <a href="https://www.credly.com/badges/2bbbe76f-99a3-4685-9f74-1e401b2ce639/public_url" target="_blank" class="social__link">
+                                    Certified
+                                </a>
+                            </div>
+                            
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Git & Github</h3>
+                                <p class="certificate__description">Udemy</p>
+                                <a href="https://www.udemy.com/certificate/UC-f7f44885-f5cd-472f-b229-1b96b651525d/" target="_blank" class="social__link">
+                                    Certified
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <!-- <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Sr. Director</span>
+                                <h3 class="references__title">Mr. Clay Doe</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 999-888-777</li>
+                                    <li>Email: user@email.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Mag. Developer</span>
+                                <h3 class="references__title">Mr. Robbinson Bass</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 999-888-777</li>
+                                    <li>Email: user@email.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>German A1
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Bengali
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                        
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon'></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon'></i>
+                                <span class="interests__name">Travel</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-book interests__icon' ></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="interests__name">Fitness</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
